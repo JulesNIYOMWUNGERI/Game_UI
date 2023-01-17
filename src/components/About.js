@@ -1,7 +1,7 @@
 import React from 'react'
-import image from '../assets/images/003.png'
+import image11111 from '../assets/images/003.png'
 import freddy from '../assets/images/Freddy_pose1 3.png'
-import Logo from '../assets/logos/Game Trailer_ (1).png'
+import Logo1111 from '../assets/logos/Game Trailer_ (1).png'
 import AboutLogo from '../assets/logos/About.png'
 import Pennywise from '../assets/images/Pennywise_pose2 1.png'
 import WatchLogo from '../assets/logos/Watch Trailer.png'
@@ -39,7 +39,7 @@ const About = () => {
         </div>
         <div className='h-auto lg:w-[50%] md:w-[50%] sm:w-[100%] bg-transparent'>
            <div className='h-[600px] w-full flex flex-col justify-center items-center relative'>
-             <img className='w-full h-full' src={image} alt=''/>
+             <img className='w-full h-full' src={image11111} alt=''/>
              <div className='bg-transparent text-white text-[30px] w-full h-full flex justify-center items-center absolute z-[100000]'>
                <div className='mb-[220px] mr-[100px] sm:mr-[130px] md:mr-[80px] lg:mr-[100px] w-[60%] h-[60%]'>
                    <img className='h-full w-full' src={freddy} alt=''/>
@@ -48,7 +48,7 @@ const About = () => {
            </div>
            <div className='flex flex-col'>
             <div className='flex justify-center md:justify-start'>
-              <img className='h-[80px]' src={Logo} alt=''/>
+              <img className='h-[80px]' src={Logo1111} alt=''/>
             </div>
             <div className='text-center md:text-start'>
               <p>Lorem Ipsum et dolore minim pariatur.

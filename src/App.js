@@ -1,8 +1,8 @@
-import React from 'react'
-import About from './components/About';
+import React from 'react';
+import {Routes,Route} from 'react-router-dom';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import TokenSec from './components/TokenSec';
+import Token from './components/Token';
 
 
 function App() {
@@ -10,9 +10,11 @@ function App() {
     <div className='font-sans'>
       <Navbar/>
       <div>
-        <Home/>
-        <About/>
-        <TokenSec/>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/token' element={<Token/>} />
+        </Routes>
+        
       </div>
     </div>
   );
